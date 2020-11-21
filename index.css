@@ -1,0 +1,125 @@
+*{margin: 0; padding: 0;}
+
+
+body{
+  padding: 30px;
+  background-color: #ffffff;
+}
+
+
+/* header 영역 */
+header{
+  text-align: center;
+  padding: 10px;
+  height: 130px;
+}
+
+header a{
+  text-decoration: none;
+  color: black;
+  line-height: 80px;
+  font-size: 100px;
+  font-family: serif;
+}
+/* nav 영역 */
+nav{
+  margin-top: 10px;
+  margin-bottom: 20px;}
+
+nav ul{
+  list-style: none;
+  border-top: 2.5px solid red;
+  border-bottom: 2.5px solid red;
+  text-align: center;
+}
+
+nav ul li{
+  display: inline;
+  letter-spacing: 0.2em;
+  margin-left: 2em;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  line-height: 3em;
+  text-transform: uppercase;
+  font-family: serif;
+  font-size: 20px;
+}
+
+nav ul li a:hover{
+  text-decoration: underline;
+}
+
+/* 왼쪽 사이드 메뉴 */
+aside#left{
+  float: left;
+  height:30em;
+  width: 15em;
+  margin-right: 3em;
+
+}
+
+aside#left ul{
+  list-style: none
+}
+
+aside#left ul li{
+  background-color: #ffffff;
+  padding: 10px 15px;
+  border-bottom: 1.9px solid #cdcdcd;
+}
+
+aside#left ul li a{
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 추가;
+}
+
+
+aside#left ul li:hover{
+  background-color: #e2e2e2;
+  font-weight: bold;
+}
+
+
+aside#main{
+  float: left;
+}
+
+/* 가운데 본문 영역 */
+section#main{
+  float: left;
+
+}
+summary{
+  font-size: 20px;
+}
+summary::-webkit-details-marker {
+     color: #B6B6B6;
+     font-size: 20px;
+     margin-right: 2px;
+}
+summary::-webkit-details-marker:hover {
+     color: red;
+}
+
+h2{
+  font-size: 40px;
+}
+
+p#about_us{
+  font-size : 22px;
+}
+
+section p a{
+  text-decoration: none;
+  color: blue;
+}
+
+section p b#red{
+  font-weight: bold;
+  color: red;
+}
